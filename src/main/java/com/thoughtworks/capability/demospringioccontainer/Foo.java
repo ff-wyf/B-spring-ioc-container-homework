@@ -9,13 +9,8 @@ public class Foo {
 
     private Bar bar;
 
-    @Autowired
     public void setBar(Bar bar) {
         this.bar = bar;
-    }
-
-    public Bar getBar() {
-        return this.bar;
     }
 
     public void hi() {
